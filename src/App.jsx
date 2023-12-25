@@ -1,8 +1,18 @@
 import React from 'react'
+import Navbar from './navbar'
+import Header from './Header'
+import Cards from './components/Cards'
 
 function App() {
   return (
-    <div className="bg-zinc-900 w-full h-screen">hello</div>
+    <>
+   <Navbar/>
+   <Header/>
+   <Cards username="chaiaurcode"/>
+   <Cards username="banothhemanth"/>
+ 
+
+   </>
   )
 }
 
